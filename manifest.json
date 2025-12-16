@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Select & Speak",
+  "version": "1.1",
+  "description": "Read selected text aloud",
+  "permissions": ["tts", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
